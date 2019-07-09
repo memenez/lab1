@@ -11,8 +11,9 @@ font{
     position:relative;
     top:-25px;
     left:-35px;
-    width:750px;
     height:auto;
     display:block;
-    z-index:999;
+	z-index:999;
+	transition: transform .2s;
+	transform: scale(1.5)
 }
