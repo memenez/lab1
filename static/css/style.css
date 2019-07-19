@@ -7,6 +7,7 @@ font{
 	color: #ffffff !important
 
 }
+
 .thumbnail:hover {
     position:relative;
     top:-25px;
@@ -16,4 +17,8 @@ font{
 	z-index:999;
 	transition: transform .2s;
 	transform: scale(1.5)
+}
+.thumbnail {
+	transition: transform .2s;
+	transform: scale(1)
 }
